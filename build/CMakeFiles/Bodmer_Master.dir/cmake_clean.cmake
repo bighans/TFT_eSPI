@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Bodmer_Master.dir/Main.cpp.o"
   "CMakeFiles/Bodmer_Master.dir/Main.cpp.o.d"
+  "CMakeFiles/Bodmer_Master.dir/Piduino/Arduino.cpp.o"
+  "CMakeFiles/Bodmer_Master.dir/Piduino/Arduino.cpp.o.d"
   "CMakeFiles/Bodmer_Master.dir/Piduino/Print.cpp.o"
   "CMakeFiles/Bodmer_Master.dir/Piduino/Print.cpp.o.d"
   "CMakeFiles/Bodmer_Master.dir/Piduino/SPI.cpp.o"

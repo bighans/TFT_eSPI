@@ -19,9 +19,15 @@
 
 #include "SPI.h"
 #include <cstdint>
+#include <exception>
+
+int SPIClass::fd;
 
 void SPIClass::begin() {
 	puts("begin");
+	fd=spiOpen(0,500000,0);
+	if(fd<0)
+		throw std::invalid_argument(std::string("spiOpen returned error "+ std::to_string(fd)));
   // pinMode(9, ALT0);
   // pinMode(10, ALT0);
   // pinMode(11, ALT0);
@@ -57,7 +63,10 @@ void SPIClass::setClock(uint32_t rate){
 }
 
 uint8_t SPIClass::transfer(uint8_t data) {
-	puts("transfer");
+	// puts("transfer");
+	if(spiWrite(fd,(char*)&data,1)!=1)
+		throw std::invalid_argument(std::string("transfer(uint8_t data) failed"));
+
   // SPI0CS |= _BV(SPI0TA) | _BV(SPI0CLEAR_RX) | _BV(SPI0CLEAR_TX);
   // SPI0FIFO = data;
   // while (!(SPI0CS & _BV(SPI0RXD)));
@@ -67,7 +76,9 @@ uint8_t SPIClass::transfer(uint8_t data) {
 }
 
 uint8_t SPIClass::transfer16(uint16_t data) {
-	puts("transfer16");
+	// puts("transfer16");
+	if(spiWrite(fd,(char*)&data,2)!=2)
+		throw std::invalid_argument(std::string("transfer16(uint16_t data) failed"));
   // SPI0CS |= _BV(SPI0TA) | _BV(SPI0CLEAR_RX) | _BV(SPI0CLEAR_TX);
   // SPI0FIFO = data;
   // while (!(SPI0CS & _BV(SPI0RXD)));
@@ -77,7 +88,7 @@ uint8_t SPIClass::transfer16(uint16_t data) {
 }
 
 void SPIClass::beginTransaction(SPISettings settings){
-  puts("beginTransacition");
+  puts("beginTransaction");
 }
 
 SPIClass SPI;

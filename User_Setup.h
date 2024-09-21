@@ -167,8 +167,9 @@
 #ifdef RASPBIANSPI
 	#pragma message "Rasbian SPI"
 	#define RPI_SPI_DEVICE "/dev/spidev0.0"
-	#define RPI_TFT_DC    (2)  // Data Command control pin
-	#define RPI_TFT_RST   (3)  // Reset pin (could connect to NodeMCU RST, see next line)
+	#define TFT_DC    (5)  // Data Command control pin
+	#define	TFT_RST   (6)  // Reset pin (could connect to NodeMCU RST, see next line)
+	#define TFT_BL		(25)	// LED pin
 #endif
 
 // For NodeMCU - use pin numbers in the form PIN_Dx where Dx is the NodeMCU pin designation

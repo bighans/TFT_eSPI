@@ -69,7 +69,7 @@
 #include <User_Setup_Select.h>
 
 // Handle FLASH based storage e.g. PROGMEM
-#if defined(ARDUINO_ARCH_RP2040)
+#if defined(ARDUINO_ARCH_RP2040) || defined(RASPBIANSPI)
   #undef pgm_read_byte
   #define pgm_read_byte(addr)   (*(const unsigned char *)(addr))
   #undef pgm_read_word

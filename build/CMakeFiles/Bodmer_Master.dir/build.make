@@ -83,10 +83,24 @@ CMakeFiles/Bodmer_Master.dir/Main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Bodmer_Master.dir/Main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orsis/src/TFT_eSPI/TFT_eSPI/Main.cpp -o CMakeFiles/Bodmer_Master.dir/Main.cpp.s
 
+CMakeFiles/Bodmer_Master.dir/Piduino/Arduino.cpp.o: CMakeFiles/Bodmer_Master.dir/flags.make
+CMakeFiles/Bodmer_Master.dir/Piduino/Arduino.cpp.o: /home/orsis/src/TFT_eSPI/TFT_eSPI/Piduino/Arduino.cpp
+CMakeFiles/Bodmer_Master.dir/Piduino/Arduino.cpp.o: CMakeFiles/Bodmer_Master.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/orsis/src/TFT_eSPI/TFT_eSPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Bodmer_Master.dir/Piduino/Arduino.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Bodmer_Master.dir/Piduino/Arduino.cpp.o -MF CMakeFiles/Bodmer_Master.dir/Piduino/Arduino.cpp.o.d -o CMakeFiles/Bodmer_Master.dir/Piduino/Arduino.cpp.o -c /home/orsis/src/TFT_eSPI/TFT_eSPI/Piduino/Arduino.cpp
+
+CMakeFiles/Bodmer_Master.dir/Piduino/Arduino.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Bodmer_Master.dir/Piduino/Arduino.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/orsis/src/TFT_eSPI/TFT_eSPI/Piduino/Arduino.cpp > CMakeFiles/Bodmer_Master.dir/Piduino/Arduino.cpp.i
+
+CMakeFiles/Bodmer_Master.dir/Piduino/Arduino.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Bodmer_Master.dir/Piduino/Arduino.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/orsis/src/TFT_eSPI/TFT_eSPI/Piduino/Arduino.cpp -o CMakeFiles/Bodmer_Master.dir/Piduino/Arduino.cpp.s
+
 CMakeFiles/Bodmer_Master.dir/Piduino/Print.cpp.o: CMakeFiles/Bodmer_Master.dir/flags.make
 CMakeFiles/Bodmer_Master.dir/Piduino/Print.cpp.o: /home/orsis/src/TFT_eSPI/TFT_eSPI/Piduino/Print.cpp
 CMakeFiles/Bodmer_Master.dir/Piduino/Print.cpp.o: CMakeFiles/Bodmer_Master.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/orsis/src/TFT_eSPI/TFT_eSPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Bodmer_Master.dir/Piduino/Print.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/orsis/src/TFT_eSPI/TFT_eSPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Bodmer_Master.dir/Piduino/Print.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Bodmer_Master.dir/Piduino/Print.cpp.o -MF CMakeFiles/Bodmer_Master.dir/Piduino/Print.cpp.o.d -o CMakeFiles/Bodmer_Master.dir/Piduino/Print.cpp.o -c /home/orsis/src/TFT_eSPI/TFT_eSPI/Piduino/Print.cpp
 
 CMakeFiles/Bodmer_Master.dir/Piduino/Print.cpp.i: cmake_force
@@ -100,7 +114,7 @@ CMakeFiles/Bodmer_Master.dir/Piduino/Print.cpp.s: cmake_force
 CMakeFiles/Bodmer_Master.dir/Piduino/SPI.cpp.o: CMakeFiles/Bodmer_Master.dir/flags.make
 CMakeFiles/Bodmer_Master.dir/Piduino/SPI.cpp.o: /home/orsis/src/TFT_eSPI/TFT_eSPI/Piduino/SPI.cpp
 CMakeFiles/Bodmer_Master.dir/Piduino/SPI.cpp.o: CMakeFiles/Bodmer_Master.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/orsis/src/TFT_eSPI/TFT_eSPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Bodmer_Master.dir/Piduino/SPI.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/orsis/src/TFT_eSPI/TFT_eSPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Bodmer_Master.dir/Piduino/SPI.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Bodmer_Master.dir/Piduino/SPI.cpp.o -MF CMakeFiles/Bodmer_Master.dir/Piduino/SPI.cpp.o.d -o CMakeFiles/Bodmer_Master.dir/Piduino/SPI.cpp.o -c /home/orsis/src/TFT_eSPI/TFT_eSPI/Piduino/SPI.cpp
 
 CMakeFiles/Bodmer_Master.dir/Piduino/SPI.cpp.i: cmake_force
@@ -114,7 +128,7 @@ CMakeFiles/Bodmer_Master.dir/Piduino/SPI.cpp.s: cmake_force
 CMakeFiles/Bodmer_Master.dir/Piduino/WMath.cpp.o: CMakeFiles/Bodmer_Master.dir/flags.make
 CMakeFiles/Bodmer_Master.dir/Piduino/WMath.cpp.o: /home/orsis/src/TFT_eSPI/TFT_eSPI/Piduino/WMath.cpp
 CMakeFiles/Bodmer_Master.dir/Piduino/WMath.cpp.o: CMakeFiles/Bodmer_Master.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/orsis/src/TFT_eSPI/TFT_eSPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Bodmer_Master.dir/Piduino/WMath.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/orsis/src/TFT_eSPI/TFT_eSPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Bodmer_Master.dir/Piduino/WMath.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Bodmer_Master.dir/Piduino/WMath.cpp.o -MF CMakeFiles/Bodmer_Master.dir/Piduino/WMath.cpp.o.d -o CMakeFiles/Bodmer_Master.dir/Piduino/WMath.cpp.o -c /home/orsis/src/TFT_eSPI/TFT_eSPI/Piduino/WMath.cpp
 
 CMakeFiles/Bodmer_Master.dir/Piduino/WMath.cpp.i: cmake_force
@@ -128,7 +142,7 @@ CMakeFiles/Bodmer_Master.dir/Piduino/WMath.cpp.s: cmake_force
 CMakeFiles/Bodmer_Master.dir/Piduino/WString.cpp.o: CMakeFiles/Bodmer_Master.dir/flags.make
 CMakeFiles/Bodmer_Master.dir/Piduino/WString.cpp.o: /home/orsis/src/TFT_eSPI/TFT_eSPI/Piduino/WString.cpp
 CMakeFiles/Bodmer_Master.dir/Piduino/WString.cpp.o: CMakeFiles/Bodmer_Master.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/orsis/src/TFT_eSPI/TFT_eSPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Bodmer_Master.dir/Piduino/WString.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/orsis/src/TFT_eSPI/TFT_eSPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Bodmer_Master.dir/Piduino/WString.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Bodmer_Master.dir/Piduino/WString.cpp.o -MF CMakeFiles/Bodmer_Master.dir/Piduino/WString.cpp.o.d -o CMakeFiles/Bodmer_Master.dir/Piduino/WString.cpp.o -c /home/orsis/src/TFT_eSPI/TFT_eSPI/Piduino/WString.cpp
 
 CMakeFiles/Bodmer_Master.dir/Piduino/WString.cpp.i: cmake_force
@@ -142,7 +156,7 @@ CMakeFiles/Bodmer_Master.dir/Piduino/WString.cpp.s: cmake_force
 CMakeFiles/Bodmer_Master.dir/Piduino/stdlib_noniso.cpp.o: CMakeFiles/Bodmer_Master.dir/flags.make
 CMakeFiles/Bodmer_Master.dir/Piduino/stdlib_noniso.cpp.o: /home/orsis/src/TFT_eSPI/TFT_eSPI/Piduino/stdlib_noniso.cpp
 CMakeFiles/Bodmer_Master.dir/Piduino/stdlib_noniso.cpp.o: CMakeFiles/Bodmer_Master.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/orsis/src/TFT_eSPI/TFT_eSPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Bodmer_Master.dir/Piduino/stdlib_noniso.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/orsis/src/TFT_eSPI/TFT_eSPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Bodmer_Master.dir/Piduino/stdlib_noniso.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Bodmer_Master.dir/Piduino/stdlib_noniso.cpp.o -MF CMakeFiles/Bodmer_Master.dir/Piduino/stdlib_noniso.cpp.o.d -o CMakeFiles/Bodmer_Master.dir/Piduino/stdlib_noniso.cpp.o -c /home/orsis/src/TFT_eSPI/TFT_eSPI/Piduino/stdlib_noniso.cpp
 
 CMakeFiles/Bodmer_Master.dir/Piduino/stdlib_noniso.cpp.i: cmake_force
@@ -156,7 +170,7 @@ CMakeFiles/Bodmer_Master.dir/Piduino/stdlib_noniso.cpp.s: cmake_force
 CMakeFiles/Bodmer_Master.dir/TFT_Char_times.cpp.o: CMakeFiles/Bodmer_Master.dir/flags.make
 CMakeFiles/Bodmer_Master.dir/TFT_Char_times.cpp.o: /home/orsis/src/TFT_eSPI/TFT_eSPI/TFT_Char_times.cpp
 CMakeFiles/Bodmer_Master.dir/TFT_Char_times.cpp.o: CMakeFiles/Bodmer_Master.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/orsis/src/TFT_eSPI/TFT_eSPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Bodmer_Master.dir/TFT_Char_times.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/orsis/src/TFT_eSPI/TFT_eSPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Bodmer_Master.dir/TFT_Char_times.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Bodmer_Master.dir/TFT_Char_times.cpp.o -MF CMakeFiles/Bodmer_Master.dir/TFT_Char_times.cpp.o.d -o CMakeFiles/Bodmer_Master.dir/TFT_Char_times.cpp.o -c /home/orsis/src/TFT_eSPI/TFT_eSPI/TFT_Char_times.cpp
 
 CMakeFiles/Bodmer_Master.dir/TFT_Char_times.cpp.i: cmake_force
@@ -170,7 +184,7 @@ CMakeFiles/Bodmer_Master.dir/TFT_Char_times.cpp.s: cmake_force
 CMakeFiles/Bodmer_Master.dir/TFT_eSPI.cpp.o: CMakeFiles/Bodmer_Master.dir/flags.make
 CMakeFiles/Bodmer_Master.dir/TFT_eSPI.cpp.o: /home/orsis/src/TFT_eSPI/TFT_eSPI/TFT_eSPI.cpp
 CMakeFiles/Bodmer_Master.dir/TFT_eSPI.cpp.o: CMakeFiles/Bodmer_Master.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/orsis/src/TFT_eSPI/TFT_eSPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Bodmer_Master.dir/TFT_eSPI.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/orsis/src/TFT_eSPI/TFT_eSPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Bodmer_Master.dir/TFT_eSPI.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Bodmer_Master.dir/TFT_eSPI.cpp.o -MF CMakeFiles/Bodmer_Master.dir/TFT_eSPI.cpp.o.d -o CMakeFiles/Bodmer_Master.dir/TFT_eSPI.cpp.o -c /home/orsis/src/TFT_eSPI/TFT_eSPI/TFT_eSPI.cpp
 
 CMakeFiles/Bodmer_Master.dir/TFT_eSPI.cpp.i: cmake_force
@@ -184,6 +198,7 @@ CMakeFiles/Bodmer_Master.dir/TFT_eSPI.cpp.s: cmake_force
 # Object files for target Bodmer_Master
 Bodmer_Master_OBJECTS = \
 "CMakeFiles/Bodmer_Master.dir/Main.cpp.o" \
+"CMakeFiles/Bodmer_Master.dir/Piduino/Arduino.cpp.o" \
 "CMakeFiles/Bodmer_Master.dir/Piduino/Print.cpp.o" \
 "CMakeFiles/Bodmer_Master.dir/Piduino/SPI.cpp.o" \
 "CMakeFiles/Bodmer_Master.dir/Piduino/WMath.cpp.o" \
@@ -196,6 +211,7 @@ Bodmer_Master_OBJECTS = \
 Bodmer_Master_EXTERNAL_OBJECTS =
 
 bin/Bodmer_Master: CMakeFiles/Bodmer_Master.dir/Main.cpp.o
+bin/Bodmer_Master: CMakeFiles/Bodmer_Master.dir/Piduino/Arduino.cpp.o
 bin/Bodmer_Master: CMakeFiles/Bodmer_Master.dir/Piduino/Print.cpp.o
 bin/Bodmer_Master: CMakeFiles/Bodmer_Master.dir/Piduino/SPI.cpp.o
 bin/Bodmer_Master: CMakeFiles/Bodmer_Master.dir/Piduino/WMath.cpp.o
@@ -205,7 +221,7 @@ bin/Bodmer_Master: CMakeFiles/Bodmer_Master.dir/TFT_Char_times.cpp.o
 bin/Bodmer_Master: CMakeFiles/Bodmer_Master.dir/TFT_eSPI.cpp.o
 bin/Bodmer_Master: CMakeFiles/Bodmer_Master.dir/build.make
 bin/Bodmer_Master: CMakeFiles/Bodmer_Master.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/orsis/src/TFT_eSPI/TFT_eSPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable bin/Bodmer_Master"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/orsis/src/TFT_eSPI/TFT_eSPI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable bin/Bodmer_Master"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Bodmer_Master.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

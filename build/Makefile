@@ -153,6 +153,30 @@ Main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Bodmer_Master.dir/build.make CMakeFiles/Bodmer_Master.dir/Main.cpp.s
 .PHONY : Main.cpp.s
 
+Piduino/Arduino.o: Piduino/Arduino.cpp.o
+.PHONY : Piduino/Arduino.o
+
+# target to build an object file
+Piduino/Arduino.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Bodmer_Master.dir/build.make CMakeFiles/Bodmer_Master.dir/Piduino/Arduino.cpp.o
+.PHONY : Piduino/Arduino.cpp.o
+
+Piduino/Arduino.i: Piduino/Arduino.cpp.i
+.PHONY : Piduino/Arduino.i
+
+# target to preprocess a source file
+Piduino/Arduino.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Bodmer_Master.dir/build.make CMakeFiles/Bodmer_Master.dir/Piduino/Arduino.cpp.i
+.PHONY : Piduino/Arduino.cpp.i
+
+Piduino/Arduino.s: Piduino/Arduino.cpp.s
+.PHONY : Piduino/Arduino.s
+
+# target to generate assembly for a file
+Piduino/Arduino.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Bodmer_Master.dir/build.make CMakeFiles/Bodmer_Master.dir/Piduino/Arduino.cpp.s
+.PHONY : Piduino/Arduino.cpp.s
+
 Piduino/Print.o: Piduino/Print.cpp.o
 .PHONY : Piduino/Print.o
 
@@ -333,6 +357,9 @@ help:
 	@echo "... Main.o"
 	@echo "... Main.i"
 	@echo "... Main.s"
+	@echo "... Piduino/Arduino.o"
+	@echo "... Piduino/Arduino.i"
+	@echo "... Piduino/Arduino.s"
 	@echo "... Piduino/Print.o"
 	@echo "... Piduino/Print.i"
 	@echo "... Piduino/Print.s"

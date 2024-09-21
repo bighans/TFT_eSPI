@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/orsis/src/TFT_eSPI/TFT_eSPI/Main.cpp" "CMakeFiles/Bodmer_Master.dir/Main.cpp.o" "gcc" "CMakeFiles/Bodmer_Master.dir/Main.cpp.o.d"
+  "/home/orsis/src/TFT_eSPI/TFT_eSPI/Piduino/Arduino.cpp" "CMakeFiles/Bodmer_Master.dir/Piduino/Arduino.cpp.o" "gcc" "CMakeFiles/Bodmer_Master.dir/Piduino/Arduino.cpp.o.d"
   "/home/orsis/src/TFT_eSPI/TFT_eSPI/Piduino/Print.cpp" "CMakeFiles/Bodmer_Master.dir/Piduino/Print.cpp.o" "gcc" "CMakeFiles/Bodmer_Master.dir/Piduino/Print.cpp.o.d"
   "/home/orsis/src/TFT_eSPI/TFT_eSPI/Piduino/SPI.cpp" "CMakeFiles/Bodmer_Master.dir/Piduino/SPI.cpp.o" "gcc" "CMakeFiles/Bodmer_Master.dir/Piduino/SPI.cpp.o.d"
   "/home/orsis/src/TFT_eSPI/TFT_eSPI/Piduino/WMath.cpp" "CMakeFiles/Bodmer_Master.dir/Piduino/WMath.cpp.o" "gcc" "CMakeFiles/Bodmer_Master.dir/Piduino/WMath.cpp.o.d"

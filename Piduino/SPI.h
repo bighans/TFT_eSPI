@@ -49,6 +49,7 @@ private:
 
 
 class SPIClass {
+	static int fd;
 public:
   static void begin();
   static void end();

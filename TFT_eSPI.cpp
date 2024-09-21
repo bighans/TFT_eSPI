@@ -614,7 +614,7 @@ void TFT_eSPI::init(uint8_t tc)
   {
     initBus();
 
-#if !defined (ESP32) && !defined(TFT_PARALLEL_8_BIT) && !defined(ARDUINO_ARCH_RP2040) && !defined (ARDUINO_ARCH_MBED)
+#if !defined (ESP32) && !defined(TFT_PARALLEL_8_BIT) && !defined(ARDUINO_ARCH_RP2040) && !defined (ARDUINO_ARCH_MBED) && !defined(RASPBIANSPI)
   // Legacy bitmasks for GPIO
   #if defined (TFT_CS) && (TFT_CS >= 0)
     cspinmask = (uint32_t) digitalPinToBitMask(TFT_CS);
@@ -5231,12 +5231,12 @@ int16_t TFT_eSPI::drawChar(uint16_t uniCode, int32_t x, int32_t y, uint8_t font)
 
   int32_t width  = 0;
   int32_t height = 0;
-  uint32_t flash_address = 0;
+  uint8_t* flash_address = 0;
   uniCode -= 32;
 
 #ifdef LOAD_FONT2
   if (font == 2) {
-    flash_address = pgm_read_dword(&chrtbl_f16[uniCode]);
+    flash_address = reinterpret_cast<uint8_t*>(pgm_read_dword(&chrtbl_f16[uniCode]));
     width = pgm_read_byte(widtbl_f16 + uniCode);
     height = chr_hgt_f16;
   }
@@ -5248,7 +5248,7 @@ int16_t TFT_eSPI::drawChar(uint16_t uniCode, int32_t x, int32_t y, uint8_t font)
 #ifdef LOAD_RLE
   {
     if ((font>2) && (font<9)) {
-      flash_address = pgm_read_dword( (const void*)(pgm_read_dword( &(fontdata[font].chartbl ) ) + uniCode*sizeof(void *)) );
+      flash_address = reinterpret_cast<uint8_t*>(pgm_read_dword( (const void*)(pgm_read_dword( &(fontdata[font].chartbl ) ) + uniCode*sizeof(void *)) ));
       width = pgm_read_byte( (uint8_t *)pgm_read_dword( &(fontdata[font].widthtbl ) ) + uniCode );
       height= pgm_read_byte( &fontdata[font].height );
     }

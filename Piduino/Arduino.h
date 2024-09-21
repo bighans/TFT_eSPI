@@ -41,14 +41,14 @@ void yield(void);
 #define HIGH 0x1
 #define LOW  0x0
 
-#define INPUT   0x0
-#define OUTPUT  0x1
-#define ALT0    0x04
-#define ALT1    0x05
-#define ALT2    0x06
-#define ALT3    0x07
-#define ALT4    0x03
-#define ALT5    0x02
+#define INPUT   PI_INPUT
+#define OUTPUT  PI_OUTPUT
+#define ALT0    PI_ALT0
+#define ALT1    PI_ALT1
+#define ALT2    PI_ALT2
+#define ALT3    PI_ALT3
+#define ALT4    PI_ALT4
+#define ALT5    PI_ALT5
 #define INPUT_PULLUP    0x10
 #define INPUT_PULLDOWN  0x20
 

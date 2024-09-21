@@ -81,12 +81,12 @@ clean: CMakeFiles/Bodmer_Master.dir/clean
 CMakeFiles/Bodmer_Master.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Bodmer_Master.dir/build.make CMakeFiles/Bodmer_Master.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Bodmer_Master.dir/build.make CMakeFiles/Bodmer_Master.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/orsis/src/TFT_eSPI/TFT_eSPI/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target Bodmer_Master"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/orsis/src/TFT_eSPI/TFT_eSPI/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target Bodmer_Master"
 .PHONY : CMakeFiles/Bodmer_Master.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Bodmer_Master.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/orsis/src/TFT_eSPI/TFT_eSPI/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/orsis/src/TFT_eSPI/TFT_eSPI/build/CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Bodmer_Master.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/orsis/src/TFT_eSPI/TFT_eSPI/build/CMakeFiles 0
 .PHONY : CMakeFiles/Bodmer_Master.dir/rule

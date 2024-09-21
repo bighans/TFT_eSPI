@@ -1,33 +1,25 @@
-CMakeFiles/Bodmer_Master.dir/Main.cpp.o: \
- /home/orsis/src/TFT_eSPI/TFT_eSPI/Main.cpp /usr/include/stdc-predef.h \
- /usr/include/unistd.h /usr/include/features.h \
- /usr/include/features-time64.h \
+CMakeFiles/Bodmer_Master.dir/Piduino/Arduino.cpp.o: \
+ /home/orsis/src/TFT_eSPI/TFT_eSPI/Piduino/Arduino.cpp \
+ /usr/include/stdc-predef.h \
+ /home/orsis/src/TFT_eSPI/TFT_eSPI/Piduino/Arduino.h \
+ /usr/include/c++/12/math.h /usr/include/c++/12/cmath \
+ /usr/include/aarch64-linux-gnu/c++/12/bits/c++config.h \
+ /usr/include/aarch64-linux-gnu/c++/12/bits/os_defines.h \
+ /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/aarch64-linux-gnu/bits/wordsize.h \
  /usr/include/aarch64-linux-gnu/bits/timesize.h \
  /usr/include/aarch64-linux-gnu/sys/cdefs.h \
  /usr/include/aarch64-linux-gnu/bits/long-double.h \
  /usr/include/aarch64-linux-gnu/gnu/stubs.h \
  /usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h \
- /usr/include/aarch64-linux-gnu/bits/posix_opt.h \
- /usr/include/aarch64-linux-gnu/bits/environments.h \
- /usr/include/aarch64-linux-gnu/bits/types.h \
- /usr/include/aarch64-linux-gnu/bits/typesizes.h \
- /usr/include/aarch64-linux-gnu/bits/time64.h \
- /usr/lib/gcc/aarch64-linux-gnu/12/include/stddef.h \
- /usr/include/aarch64-linux-gnu/bits/confname.h \
- /usr/include/aarch64-linux-gnu/bits/getopt_posix.h \
- /usr/include/aarch64-linux-gnu/bits/getopt_core.h \
- /usr/include/aarch64-linux-gnu/bits/unistd_ext.h \
- /usr/include/linux/close_range.h \
- /home/orsis/src/TFT_eSPI/TFT_eSPI/Piduino/Arduino.h \
- /usr/include/c++/12/math.h /usr/include/c++/12/cmath \
- /usr/include/aarch64-linux-gnu/c++/12/bits/c++config.h \
- /usr/include/aarch64-linux-gnu/c++/12/bits/os_defines.h \
  /usr/include/aarch64-linux-gnu/c++/12/bits/cpu_defines.h \
  /usr/include/c++/12/pstl/pstl_config.h \
  /usr/include/c++/12/bits/cpp_type_traits.h \
  /usr/include/c++/12/ext/type_traits.h /usr/include/math.h \
  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
+ /usr/include/aarch64-linux-gnu/bits/types.h \
+ /usr/include/aarch64-linux-gnu/bits/typesizes.h \
+ /usr/include/aarch64-linux-gnu/bits/time64.h \
  /usr/include/aarch64-linux-gnu/bits/math-vector.h \
  /usr/include/aarch64-linux-gnu/bits/libm-simd-decl-stubs.h \
  /usr/include/aarch64-linux-gnu/bits/floatn.h \
@@ -40,6 +32,7 @@ CMakeFiles/Bodmer_Master.dir/Main.cpp.o: \
  /usr/include/aarch64-linux-gnu/bits/mathcalls-narrow.h \
  /usr/include/aarch64-linux-gnu/bits/iscanonical.h \
  /usr/include/c++/12/bits/std_abs.h /usr/include/stdlib.h \
+ /usr/lib/gcc/aarch64-linux-gnu/12/include/stddef.h \
  /usr/include/aarch64-linux-gnu/bits/waitflags.h \
  /usr/include/aarch64-linux-gnu/bits/waitstatus.h \
  /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
