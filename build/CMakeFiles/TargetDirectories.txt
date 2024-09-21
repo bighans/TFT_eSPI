@@ -1,0 +1,3 @@
+/home/orsis/src/TFT_eSPI/TFT_eSPI/build/CMakeFiles/Bodmer_Master.dir
+/home/orsis/src/TFT_eSPI/TFT_eSPI/build/CMakeFiles/edit_cache.dir
+/home/orsis/src/TFT_eSPI/TFT_eSPI/build/CMakeFiles/rebuild_cache.dir

@@ -163,17 +163,32 @@
 // If 5V is not available at a pin you can use 3.3V but backlight brightness
 // will be lower.
 
+// Raspiduino
+#ifdef RASPBIANSPI
+	#pragma message "Rasbian SPI"
+	#define RPI_SPI_DEVICE "/dev/spidev0.0"
+	#define RPI_TFT_DC    (2)  // Data Command control pin
+	#define RPI_TFT_RST   (3)  // Reset pin (could connect to NodeMCU RST, see next line)
+#endif
+
+// For NodeMCU - use pin numbers in the form PIN_Dx where Dx is the NodeMCU pin designation
+// #define TFT_MISO  PIN_D6  // Automatically assigned with ESP8266 if not defined
+// #define TFT_MOSI  PIN_D7  // Automatically assigned with ESP8266 if not defined
+// #define TFT_SCLK  PIN_D5  // Automatically assigned with ESP8266 if not defined
+// #define TFT_CS    PIN_D8  // Chip select control pin D8
+// #define TFT_DC    PIN_D3  // Data Command control pin
+// #define TFT_RST   PIN_D4  // Reset pin (could connect to NodeMCU RST, see next line)
 
 // ###### EDIT THE PIN NUMBERS IN THE LINES FOLLOWING TO SUIT YOUR ESP8266 SETUP ######
 
 // For NodeMCU - use pin numbers in the form PIN_Dx where Dx is the NodeMCU pin designation
-#define TFT_MISO  PIN_D6  // Automatically assigned with ESP8266 if not defined
-#define TFT_MOSI  PIN_D7  // Automatically assigned with ESP8266 if not defined
-#define TFT_SCLK  PIN_D5  // Automatically assigned with ESP8266 if not defined
+// #define TFT_MISO  PIN_D6  // Automatically assigned with ESP8266 if not defined
+// #define TFT_MOSI  PIN_D7  // Automatically assigned with ESP8266 if not defined
+// #define TFT_SCLK  PIN_D5  // Automatically assigned with ESP8266 if not defined
 
-#define TFT_CS    PIN_D8  // Chip select control pin D8
-#define TFT_DC    PIN_D3  // Data Command control pin
-#define TFT_RST   PIN_D4  // Reset pin (could connect to NodeMCU RST, see next line)
+// #define TFT_CS    PIN_D8  // Chip select control pin D8
+// #define TFT_DC    PIN_D3  // Data Command control pin
+// #define TFT_RST   PIN_D4  // Reset pin (could connect to NodeMCU RST, see next line)
 //#define TFT_RST  -1     // Set TFT_RST to -1 if the display RESET is connected to NodeMCU RST or 3.3V
 
 
