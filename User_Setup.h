@@ -169,7 +169,8 @@
 	#define RPI_SPI_DEVICE "/dev/spidev0.0"
 	#define TFT_DC    (5)  // Data Command control pin
 	#define	TFT_RST   (6)  // Reset pin (could connect to NodeMCU RST, see next line)
-	#define TFT_BL		(25)	// LED pin
+	#define TFT_BL		(24)	// LED pin
+	#define TFT_BACKLIGHT_ON HIGH  // Level to turn ON back-light (HIGH or LOW)
 #endif
 
 // For NodeMCU - use pin numbers in the form PIN_Dx where Dx is the NodeMCU pin designation

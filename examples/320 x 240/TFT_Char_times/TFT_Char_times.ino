@@ -23,12 +23,12 @@ unsigned long drawTime = 0;
 
 void setup(void) {
   tft.init();
-  tft.setRotation(1);
+  tft.setRotation(2);
 }
 
 void loop() {
 
-  tft.fillScreen(TFT_BLACK);
+  tft.fillScreen(TFT_RED);
   tft.setTextColor(TFT_WHITE, TFT_BLACK);
 
   drawTime = millis();
@@ -46,7 +46,7 @@ void loop() {
   if (drawTime < 100) tft.drawString("Font 1 not loaded!", 50, 210, 4);
   
   delay(4000);
-  tft.fillScreen(TFT_BLACK);
+  tft.fillScreen(TFT_BLUE);
   tft.setTextColor(TFT_WHITE, TFT_BLACK);
     drawTime = millis();
 
@@ -63,7 +63,7 @@ void loop() {
   if (drawTime < 200) tft.drawString("Font 2 not loaded!", 50, 210, 4);
   
   delay(4000);
-  tft.fillScreen(TFT_BLACK);
+  tft.fillScreen(TFT_GREEN);
   tft.setTextColor(TFT_WHITE, TFT_BLACK);
     drawTime = millis();
 

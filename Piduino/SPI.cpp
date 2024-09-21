@@ -25,7 +25,7 @@ int SPIClass::fd;
 
 void SPIClass::begin() {
 	puts("begin");
-	fd=spiOpen(0,500000,0);
+	fd=spiOpen(0,10000000,0);
 	if(fd<0)
 		throw std::invalid_argument(std::string("spiOpen returned error "+ std::to_string(fd)));
   // pinMode(9, ALT0);
