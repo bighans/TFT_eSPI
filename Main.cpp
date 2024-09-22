@@ -8,12 +8,14 @@
 #include "Arduino.h"
 #include <errno.h>
 #include <stdio.h>
+#include <fcntl.h>
 
 int main(int argc, char* argv[]) {
 
+
 	// Run as root.
 	seteuid(0);
-	
+
 	int iVersion = gpioInitialise();
 	if(iVersion==PI_INIT_FAILED) {
 		puts("gpioInitialise() failed");

@@ -19,6 +19,6 @@ void digitalWrite(uint8_t u8tPin, uint8_t u8tValue) {;//47.5ns direct register w
 		throw std::invalid_argument(std::string("pinMode(uint8_t u8tPin, uint8_t u8tValue) returned error ")+std::to_string(u8tValue));
 }
 
-int digitalRead(uint8_t) {;//110ns direct register read takes 74ns
-	return 0;
+int digitalRead(uint8_t u8tPin) {;//110ns direct register read takes 74ns
+	return gpioRead(u8tPin);
 }

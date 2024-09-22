@@ -1,0 +1,3 @@
+/home/orsis/src/TFT_eSPI/TFT_eSPI/build/_deps/pngdec-subbuild/CMakeFiles/pngdec-populate.dir
+/home/orsis/src/TFT_eSPI/TFT_eSPI/build/_deps/pngdec-subbuild/CMakeFiles/edit_cache.dir
+/home/orsis/src/TFT_eSPI/TFT_eSPI/build/_deps/pngdec-subbuild/CMakeFiles/rebuild_cache.dir

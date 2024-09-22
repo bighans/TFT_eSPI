@@ -6,6 +6,10 @@ include(FetchContent)
 # This is the way.
 project(Bodmer_Master LANGUAGES C CXX)
 
+# Get the PNG library
+FetchContent_Declare(PNGdec GIT_REPOSITORY https://github.com/bitbank2/PNGdec.git)
+FetchContent_MakeAvailable(PNGdec)
+
 if(APPLE)
     find_library(IOKIT_LIBRARY IOKit)
     find_library(FOUNDATION_LIBRARY Foundation)
@@ -46,7 +50,7 @@ target_include_directories(Bodmer_Master PRIVATE
 if(APPLE)
 	target_link_libraries(Bodmer_Master ${FOUNDATION_LIBRARY} ${IOKIT_LIBRARY})
 elseif(UNIX)
-	target_link_libraries(Bodmer_Master pigpio pthread rt )
+	target_link_libraries(Bodmer_Master  pigpio pthread rt )
 else()
-	target_link_libraries(Bodmer_Master setupapi)
+	target_link_libraries(Bodmer_Master  setupapi)
 endif()

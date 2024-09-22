@@ -177,6 +177,30 @@ Piduino/Arduino.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Bodmer_Master.dir/build.make CMakeFiles/Bodmer_Master.dir/Piduino/Arduino.cpp.s
 .PHONY : Piduino/Arduino.cpp.s
 
+Piduino/Console.o: Piduino/Console.cpp.o
+.PHONY : Piduino/Console.o
+
+# target to build an object file
+Piduino/Console.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Bodmer_Master.dir/build.make CMakeFiles/Bodmer_Master.dir/Piduino/Console.cpp.o
+.PHONY : Piduino/Console.cpp.o
+
+Piduino/Console.i: Piduino/Console.cpp.i
+.PHONY : Piduino/Console.i
+
+# target to preprocess a source file
+Piduino/Console.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Bodmer_Master.dir/build.make CMakeFiles/Bodmer_Master.dir/Piduino/Console.cpp.i
+.PHONY : Piduino/Console.cpp.i
+
+Piduino/Console.s: Piduino/Console.cpp.s
+.PHONY : Piduino/Console.s
+
+# target to generate assembly for a file
+Piduino/Console.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Bodmer_Master.dir/build.make CMakeFiles/Bodmer_Master.dir/Piduino/Console.cpp.s
+.PHONY : Piduino/Console.cpp.s
+
 Piduino/Print.o: Piduino/Print.cpp.o
 .PHONY : Piduino/Print.o
 
@@ -224,6 +248,30 @@ Piduino/SPI.s: Piduino/SPI.cpp.s
 Piduino/SPI.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Bodmer_Master.dir/build.make CMakeFiles/Bodmer_Master.dir/Piduino/SPI.cpp.s
 .PHONY : Piduino/SPI.cpp.s
+
+Piduino/Stream.o: Piduino/Stream.cpp.o
+.PHONY : Piduino/Stream.o
+
+# target to build an object file
+Piduino/Stream.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Bodmer_Master.dir/build.make CMakeFiles/Bodmer_Master.dir/Piduino/Stream.cpp.o
+.PHONY : Piduino/Stream.cpp.o
+
+Piduino/Stream.i: Piduino/Stream.cpp.i
+.PHONY : Piduino/Stream.i
+
+# target to preprocess a source file
+Piduino/Stream.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Bodmer_Master.dir/build.make CMakeFiles/Bodmer_Master.dir/Piduino/Stream.cpp.i
+.PHONY : Piduino/Stream.cpp.i
+
+Piduino/Stream.s: Piduino/Stream.cpp.s
+.PHONY : Piduino/Stream.s
+
+# target to generate assembly for a file
+Piduino/Stream.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Bodmer_Master.dir/build.make CMakeFiles/Bodmer_Master.dir/Piduino/Stream.cpp.s
+.PHONY : Piduino/Stream.cpp.s
 
 Piduino/WMath.o: Piduino/WMath.cpp.o
 .PHONY : Piduino/WMath.o
@@ -297,30 +345,6 @@ Piduino/stdlib_noniso.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Bodmer_Master.dir/build.make CMakeFiles/Bodmer_Master.dir/Piduino/stdlib_noniso.cpp.s
 .PHONY : Piduino/stdlib_noniso.cpp.s
 
-TFT_Char_times.o: TFT_Char_times.cpp.o
-.PHONY : TFT_Char_times.o
-
-# target to build an object file
-TFT_Char_times.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Bodmer_Master.dir/build.make CMakeFiles/Bodmer_Master.dir/TFT_Char_times.cpp.o
-.PHONY : TFT_Char_times.cpp.o
-
-TFT_Char_times.i: TFT_Char_times.cpp.i
-.PHONY : TFT_Char_times.i
-
-# target to preprocess a source file
-TFT_Char_times.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Bodmer_Master.dir/build.make CMakeFiles/Bodmer_Master.dir/TFT_Char_times.cpp.i
-.PHONY : TFT_Char_times.cpp.i
-
-TFT_Char_times.s: TFT_Char_times.cpp.s
-.PHONY : TFT_Char_times.s
-
-# target to generate assembly for a file
-TFT_Char_times.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Bodmer_Master.dir/build.make CMakeFiles/Bodmer_Master.dir/TFT_Char_times.cpp.s
-.PHONY : TFT_Char_times.cpp.s
-
 TFT_eSPI.o: TFT_eSPI.cpp.o
 .PHONY : TFT_eSPI.o
 
@@ -345,6 +369,30 @@ TFT_eSPI.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Bodmer_Master.dir/build.make CMakeFiles/Bodmer_Master.dir/TFT_eSPI.cpp.s
 .PHONY : TFT_eSPI.cpp.s
 
+tft.o: tft.cpp.o
+.PHONY : tft.o
+
+# target to build an object file
+tft.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Bodmer_Master.dir/build.make CMakeFiles/Bodmer_Master.dir/tft.cpp.o
+.PHONY : tft.cpp.o
+
+tft.i: tft.cpp.i
+.PHONY : tft.i
+
+# target to preprocess a source file
+tft.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Bodmer_Master.dir/build.make CMakeFiles/Bodmer_Master.dir/tft.cpp.i
+.PHONY : tft.cpp.i
+
+tft.s: tft.cpp.s
+.PHONY : tft.s
+
+# target to generate assembly for a file
+tft.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Bodmer_Master.dir/build.make CMakeFiles/Bodmer_Master.dir/tft.cpp.s
+.PHONY : tft.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -360,12 +408,18 @@ help:
 	@echo "... Piduino/Arduino.o"
 	@echo "... Piduino/Arduino.i"
 	@echo "... Piduino/Arduino.s"
+	@echo "... Piduino/Console.o"
+	@echo "... Piduino/Console.i"
+	@echo "... Piduino/Console.s"
 	@echo "... Piduino/Print.o"
 	@echo "... Piduino/Print.i"
 	@echo "... Piduino/Print.s"
 	@echo "... Piduino/SPI.o"
 	@echo "... Piduino/SPI.i"
 	@echo "... Piduino/SPI.s"
+	@echo "... Piduino/Stream.o"
+	@echo "... Piduino/Stream.i"
+	@echo "... Piduino/Stream.s"
 	@echo "... Piduino/WMath.o"
 	@echo "... Piduino/WMath.i"
 	@echo "... Piduino/WMath.s"
@@ -375,12 +429,12 @@ help:
 	@echo "... Piduino/stdlib_noniso.o"
 	@echo "... Piduino/stdlib_noniso.i"
 	@echo "... Piduino/stdlib_noniso.s"
-	@echo "... TFT_Char_times.o"
-	@echo "... TFT_Char_times.i"
-	@echo "... TFT_Char_times.s"
 	@echo "... TFT_eSPI.o"
 	@echo "... TFT_eSPI.i"
 	@echo "... TFT_eSPI.s"
+	@echo "... tft.o"
+	@echo "... tft.i"
+	@echo "... tft.s"
 .PHONY : help
 
 

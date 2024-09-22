@@ -52,63 +52,22 @@ uint8_t h = 0, m = 0, s = 0;
 float time_secs = h * 3600 + m * 60 + s;
 
 // Load header after time_secs global variable has been created so it is in scope
-#include "NTP_Time.h" // Attached to this sketch, see that tab for library needs
+// #include "NTP_Time.h" // Attached to this sketch, see that tab for library needs
 
 // Time for next tick
 uint32_t targetTime = 0;
 
 // =========================================================================
-// Setup
+// Get coordinates of end of a line, pivot at x,y, length r, angle a
 // =========================================================================
-void setup() {
-  Serial.begin(115200);
-  Serial.println("Booting...");
-
-  // Initialise the screen
-  tft.init();
-
-  // Ideally set orientation for good viewing angle range because
-  // the anti-aliasing effectiveness varies with screen viewing angle
-  // Usually this is when screen ribbon connector is at the bottom
-  tft.setRotation(0);
-  tft.fillScreen(TFT_BLACK);
-
-  // Create the clock face sprite
-  //face.setColorDepth(8); // 8-bit will work, but reduces effectiveness of anti-aliasing
-  face.createSprite(FACE_W, FACE_H);
-
-  // Only 1 font used in the sprite, so can remain loaded
-  face.loadFont(NotoSansBold15);
-
-  // Draw the whole clock - NTP time not available yet
-  renderFace(time_secs);
-
-  targetTime = millis() + 100;
-}
-
-// =========================================================================
-// Loop
-// =========================================================================
-void loop() {
-  // Update time periodically
-  if (targetTime < millis()) {
-
-    // Update next tick time in 100 milliseconds for smooth movement
-    targetTime = millis() + 100;
-
-    // Increment time by 100 milliseconds
-    time_secs += 0.100;
-
-    // Midnight roll-over
-    if (time_secs >= (60 * 60 * 24)) time_secs = 0;
-
-    // All graphics are drawn in sprite to stop flicker
-    renderFace(time_secs);
-
-    // Request time from NTP server and synchronise the local clock
-    // (clock may pause since this may take >100ms)
-    syncTime();
-  }
+// Coordinates are returned to caller via the xp and yp pointers
+#define DEG2RAD 0.0174532925
+void getCoord(int16_t x, int16_t y, float *xp, float *yp, int16_t r, float a)
+{
+  float sx1 = cos( (a - 90) * DEG2RAD);
+  float sy1 = sin( (a - 90) * DEG2RAD);
+  *xp =  sx1 * r + x;
+  *yp =  sy1 * r + y;
 }
 
 // =========================================================================
@@ -165,15 +124,58 @@ static void renderFace(float t) {
   face.pushSprite(5, 5, TFT_TRANSPARENT);
 }
 
+
+
 // =========================================================================
-// Get coordinates of end of a line, pivot at x,y, length r, angle a
+// Setup
 // =========================================================================
-// Coordinates are returned to caller via the xp and yp pointers
-#define DEG2RAD 0.0174532925
-void getCoord(int16_t x, int16_t y, float *xp, float *yp, int16_t r, float a)
-{
-  float sx1 = cos( (a - 90) * DEG2RAD);
-  float sy1 = sin( (a - 90) * DEG2RAD);
-  *xp =  sx1 * r + x;
-  *yp =  sy1 * r + y;
+void setup() {
+  Serial.begin(115200);
+  Serial.println("Booting...");
+
+  // Initialise the screen
+  tft.init();
+
+  // Ideally set orientation for good viewing angle range because
+  // the anti-aliasing effectiveness varies with screen viewing angle
+  // Usually this is when screen ribbon connector is at the bottom
+  tft.setRotation(0);
+  tft.fillScreen(TFT_BLACK);
+
+  // Create the clock face sprite
+  //face.setColorDepth(8); // 8-bit will work, but reduces effectiveness of anti-aliasing
+  face.createSprite(FACE_W, FACE_H);
+
+  // Only 1 font used in the sprite, so can remain loaded
+  face.loadFont(NotoSansBold15);
+
+  // Draw the whole clock - NTP time not available yet
+  renderFace(time_secs);
+
+  targetTime = millis() + 100;
+}
+
+// =========================================================================
+// Loop
+// =========================================================================
+void loop() {
+  // Update time periodically
+  if (targetTime < millis()) {
+
+    // Update next tick time in 100 milliseconds for smooth movement
+    targetTime = millis() + 100;
+
+    // Increment time by 100 milliseconds
+    time_secs += 0.100;
+
+    // Midnight roll-over
+    if (time_secs >= (60 * 60 * 24)) time_secs = 0;
+
+    // All graphics are drawn in sprite to stop flicker
+    renderFace(time_secs);
+
+    // Request time from NTP server and synchronise the local clock
+    // (clock may pause since this may take >100ms)
+   //  syncTime();
+  }
 }

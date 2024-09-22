@@ -24,6 +24,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake"
   "/usr/share/cmake-3.25/Modules/Compiler/GNU.cmake"
   "/usr/share/cmake-3.25/Modules/FetchContent.cmake"
+  "/usr/share/cmake-3.25/Modules/FetchContent/CMakeLists.cmake.in"
+  "/usr/share/cmake-3.25/Modules/FindGit.cmake"
+  "/usr/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake"
+  "/usr/share/cmake-3.25/Modules/FindPackageMessage.cmake"
   "/usr/share/cmake-3.25/Modules/Platform/Linux-GNU-C.cmake"
   "/usr/share/cmake-3.25/Modules/Platform/Linux-GNU-CXX.cmake"
   "/usr/share/cmake-3.25/Modules/Platform/Linux-GNU.cmake"
@@ -39,6 +43,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
+  "_deps/pngdec-subbuild/CMakeLists.txt"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 

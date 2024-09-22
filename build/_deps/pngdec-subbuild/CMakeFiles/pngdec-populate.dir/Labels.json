@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/orsis/src/TFT_eSPI/TFT_eSPI/build/_deps/pngdec-subbuild/CMakeFiles/pngdec-populate"
+		},
+		{
+			"file" : "/home/orsis/src/TFT_eSPI/TFT_eSPI/build/_deps/pngdec-subbuild/CMakeFiles/pngdec-populate.rule"
+		},
+		{
+			"file" : "/home/orsis/src/TFT_eSPI/TFT_eSPI/build/_deps/pngdec-subbuild/CMakeFiles/pngdec-populate-complete.rule"
+		},
+		{
+			"file" : "/home/orsis/src/TFT_eSPI/TFT_eSPI/build/_deps/pngdec-subbuild/pngdec-populate-prefix/src/pngdec-populate-stamp/pngdec-populate-build.rule"
+		},
+		{
+			"file" : "/home/orsis/src/TFT_eSPI/TFT_eSPI/build/_deps/pngdec-subbuild/pngdec-populate-prefix/src/pngdec-populate-stamp/pngdec-populate-configure.rule"
+		},
+		{
+			"file" : "/home/orsis/src/TFT_eSPI/TFT_eSPI/build/_deps/pngdec-subbuild/pngdec-populate-prefix/src/pngdec-populate-stamp/pngdec-populate-download.rule"
+		},
+		{
+			"file" : "/home/orsis/src/TFT_eSPI/TFT_eSPI/build/_deps/pngdec-subbuild/pngdec-populate-prefix/src/pngdec-populate-stamp/pngdec-populate-install.rule"
+		},
+		{
+			"file" : "/home/orsis/src/TFT_eSPI/TFT_eSPI/build/_deps/pngdec-subbuild/pngdec-populate-prefix/src/pngdec-populate-stamp/pngdec-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/orsis/src/TFT_eSPI/TFT_eSPI/build/_deps/pngdec-subbuild/pngdec-populate-prefix/src/pngdec-populate-stamp/pngdec-populate-patch.rule"
+		},
+		{
+			"file" : "/home/orsis/src/TFT_eSPI/TFT_eSPI/build/_deps/pngdec-subbuild/pngdec-populate-prefix/src/pngdec-populate-stamp/pngdec-populate-test.rule"
+		},
+		{
+			"file" : "/home/orsis/src/TFT_eSPI/TFT_eSPI/build/_deps/pngdec-subbuild/pngdec-populate-prefix/src/pngdec-populate-stamp/pngdec-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"pngdec-populate"
+		],
+		"name" : "pngdec-populate"
+	}
+}

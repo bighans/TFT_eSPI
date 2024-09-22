@@ -1,0 +1,11 @@
+# Hashes of file build rules.
+8c9539b2e99042f1c6cef7f9dc994cf5 CMakeFiles/pngdec-populate
+72cb80bb33bb8a5df8abd20052da8a21 CMakeFiles/pngdec-populate-complete
+5c2c69c9000afb11665eb6060e1050b0 pngdec-populate-prefix/src/pngdec-populate-stamp/pngdec-populate-build
+5a58198ccb143bacc503c7580517f071 pngdec-populate-prefix/src/pngdec-populate-stamp/pngdec-populate-configure
+cabb3e3c61acf42c306b21a47cddada7 pngdec-populate-prefix/src/pngdec-populate-stamp/pngdec-populate-download
+bce8944fef7b9f06ca64b2c73531ea7f pngdec-populate-prefix/src/pngdec-populate-stamp/pngdec-populate-install
+f875aae6c6c00fb661d6476501c1e6fd pngdec-populate-prefix/src/pngdec-populate-stamp/pngdec-populate-mkdir
+eb000c836603f5cfe00a5439519d263a pngdec-populate-prefix/src/pngdec-populate-stamp/pngdec-populate-patch
+af5e9222a99144511968a36978cfd2ad pngdec-populate-prefix/src/pngdec-populate-stamp/pngdec-populate-test
+e4de3846841f7b2da023b531caf7bd29 pngdec-populate-prefix/src/pngdec-populate-stamp/pngdec-populate-update

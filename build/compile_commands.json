@@ -11,6 +11,11 @@
 },
 {
   "directory": "/home/orsis/src/TFT_eSPI/TFT_eSPI/build",
+  "command": "/usr/bin/c++ -DRASPBIANSPI -I/home/orsis/src/TFT_eSPI/TFT_eSPI/include -I/home/orsis/src/TFT_eSPI/TFT_eSPI -I/home/orsis/src/TFT_eSPI/TFT_eSPI/Piduino -I/opt/vcpkg/installed/arm64-osx/include -g -std=gnu++20 -o CMakeFiles/Bodmer_Master.dir/Piduino/Console.cpp.o -c /home/orsis/src/TFT_eSPI/TFT_eSPI/Piduino/Console.cpp",
+  "file": "/home/orsis/src/TFT_eSPI/TFT_eSPI/Piduino/Console.cpp"
+},
+{
+  "directory": "/home/orsis/src/TFT_eSPI/TFT_eSPI/build",
   "command": "/usr/bin/c++ -DRASPBIANSPI -I/home/orsis/src/TFT_eSPI/TFT_eSPI/include -I/home/orsis/src/TFT_eSPI/TFT_eSPI -I/home/orsis/src/TFT_eSPI/TFT_eSPI/Piduino -I/opt/vcpkg/installed/arm64-osx/include -g -std=gnu++20 -o CMakeFiles/Bodmer_Master.dir/Piduino/Print.cpp.o -c /home/orsis/src/TFT_eSPI/TFT_eSPI/Piduino/Print.cpp",
   "file": "/home/orsis/src/TFT_eSPI/TFT_eSPI/Piduino/Print.cpp"
 },
@@ -18,6 +23,11 @@
   "directory": "/home/orsis/src/TFT_eSPI/TFT_eSPI/build",
   "command": "/usr/bin/c++ -DRASPBIANSPI -I/home/orsis/src/TFT_eSPI/TFT_eSPI/include -I/home/orsis/src/TFT_eSPI/TFT_eSPI -I/home/orsis/src/TFT_eSPI/TFT_eSPI/Piduino -I/opt/vcpkg/installed/arm64-osx/include -g -std=gnu++20 -o CMakeFiles/Bodmer_Master.dir/Piduino/SPI.cpp.o -c /home/orsis/src/TFT_eSPI/TFT_eSPI/Piduino/SPI.cpp",
   "file": "/home/orsis/src/TFT_eSPI/TFT_eSPI/Piduino/SPI.cpp"
+},
+{
+  "directory": "/home/orsis/src/TFT_eSPI/TFT_eSPI/build",
+  "command": "/usr/bin/c++ -DRASPBIANSPI -I/home/orsis/src/TFT_eSPI/TFT_eSPI/include -I/home/orsis/src/TFT_eSPI/TFT_eSPI -I/home/orsis/src/TFT_eSPI/TFT_eSPI/Piduino -I/opt/vcpkg/installed/arm64-osx/include -g -std=gnu++20 -o CMakeFiles/Bodmer_Master.dir/Piduino/Stream.cpp.o -c /home/orsis/src/TFT_eSPI/TFT_eSPI/Piduino/Stream.cpp",
+  "file": "/home/orsis/src/TFT_eSPI/TFT_eSPI/Piduino/Stream.cpp"
 },
 {
   "directory": "/home/orsis/src/TFT_eSPI/TFT_eSPI/build",
@@ -36,12 +46,12 @@
 },
 {
   "directory": "/home/orsis/src/TFT_eSPI/TFT_eSPI/build",
-  "command": "/usr/bin/c++ -DRASPBIANSPI -I/home/orsis/src/TFT_eSPI/TFT_eSPI/include -I/home/orsis/src/TFT_eSPI/TFT_eSPI -I/home/orsis/src/TFT_eSPI/TFT_eSPI/Piduino -I/opt/vcpkg/installed/arm64-osx/include -g -std=gnu++20 -o CMakeFiles/Bodmer_Master.dir/TFT_Char_times.cpp.o -c /home/orsis/src/TFT_eSPI/TFT_eSPI/TFT_Char_times.cpp",
-  "file": "/home/orsis/src/TFT_eSPI/TFT_eSPI/TFT_Char_times.cpp"
+  "command": "/usr/bin/c++ -DRASPBIANSPI -I/home/orsis/src/TFT_eSPI/TFT_eSPI/include -I/home/orsis/src/TFT_eSPI/TFT_eSPI -I/home/orsis/src/TFT_eSPI/TFT_eSPI/Piduino -I/opt/vcpkg/installed/arm64-osx/include -g -std=gnu++20 -o CMakeFiles/Bodmer_Master.dir/TFT_eSPI.cpp.o -c /home/orsis/src/TFT_eSPI/TFT_eSPI/TFT_eSPI.cpp",
+  "file": "/home/orsis/src/TFT_eSPI/TFT_eSPI/TFT_eSPI.cpp"
 },
 {
   "directory": "/home/orsis/src/TFT_eSPI/TFT_eSPI/build",
-  "command": "/usr/bin/c++ -DRASPBIANSPI -I/home/orsis/src/TFT_eSPI/TFT_eSPI/include -I/home/orsis/src/TFT_eSPI/TFT_eSPI -I/home/orsis/src/TFT_eSPI/TFT_eSPI/Piduino -I/opt/vcpkg/installed/arm64-osx/include -g -std=gnu++20 -o CMakeFiles/Bodmer_Master.dir/TFT_eSPI.cpp.o -c /home/orsis/src/TFT_eSPI/TFT_eSPI/TFT_eSPI.cpp",
-  "file": "/home/orsis/src/TFT_eSPI/TFT_eSPI/TFT_eSPI.cpp"
+  "command": "/usr/bin/c++ -DRASPBIANSPI -I/home/orsis/src/TFT_eSPI/TFT_eSPI/include -I/home/orsis/src/TFT_eSPI/TFT_eSPI -I/home/orsis/src/TFT_eSPI/TFT_eSPI/Piduino -I/opt/vcpkg/installed/arm64-osx/include -g -std=gnu++20 -o CMakeFiles/Bodmer_Master.dir/tft.cpp.o -c /home/orsis/src/TFT_eSPI/TFT_eSPI/tft.cpp",
+  "file": "/home/orsis/src/TFT_eSPI/TFT_eSPI/tft.cpp"
 }
 ]

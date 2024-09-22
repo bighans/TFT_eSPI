@@ -190,8 +190,18 @@ CMakeFiles/Bodmer_Master.dir/Main.cpp.o: \
  /usr/include/c++/12/bits/istream.tcc \
  /usr/include/c++/12/bits/sstream.tcc \
  /home/orsis/src/TFT_eSPI/TFT_eSPI/Piduino/pgmspace.h \
- /home/orsis/src/TFT_eSPI/TFT_eSPI/Piduino/WCharacter.h \
+ /home/orsis/src/TFT_eSPI/TFT_eSPI/Piduino/Console.h \
+ /home/orsis/src/TFT_eSPI/TFT_eSPI/Piduino/Stream.h \
+ /usr/include/inttypes.h \
+ /home/orsis/src/TFT_eSPI/TFT_eSPI/Piduino/Print.h \
  /home/orsis/src/TFT_eSPI/TFT_eSPI/Piduino/WString.h \
  /usr/include/c++/12/stdlib.h /usr/include/string.h \
  /usr/include/strings.h \
- /home/orsis/src/TFT_eSPI/TFT_eSPI/Piduino/stdlib_noniso.h
+ /home/orsis/src/TFT_eSPI/TFT_eSPI/Piduino/stdlib_noniso.h \
+ /home/orsis/src/TFT_eSPI/TFT_eSPI/Piduino/Printable.h \
+ /home/orsis/src/TFT_eSPI/TFT_eSPI/Piduino/WCharacter.h \
+ /usr/include/fcntl.h /usr/include/aarch64-linux-gnu/bits/fcntl.h \
+ /usr/include/aarch64-linux-gnu/bits/fcntl-linux.h \
+ /usr/include/aarch64-linux-gnu/bits/types/struct_iovec.h \
+ /usr/include/linux/falloc.h /usr/include/aarch64-linux-gnu/bits/stat.h \
+ /usr/include/aarch64-linux-gnu/bits/struct_stat.h

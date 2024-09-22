@@ -28,6 +28,7 @@
 #include <pigpio.h>
 #include <chrono>
 #include "pgmspace.h"
+#include "Console.h"
 
 #ifdef __cplusplus
 extern "C"{
@@ -108,7 +109,7 @@ void yield(void);
 #define bit(b) (1UL << (b))
 
 
-#define micros() (unsigned long)(STCV)
+inline uint64_t micros() {return std::chrono::duration_cast<std::chrono::microseconds>(std::chrono::system_clock::now().time_since_epoch()).count(); }
 inline uint64_t millis(){ return std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::system_clock::now().time_since_epoch()).count();  }
 typedef unsigned int word;
 typedef uint8_t boolean;
@@ -202,3 +203,4 @@ String shellExec(const char *cmd, int *result);
 #endif
 
 #endif
+

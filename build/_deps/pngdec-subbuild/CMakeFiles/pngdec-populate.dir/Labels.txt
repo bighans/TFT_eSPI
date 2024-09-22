@@ -1,0 +1,14 @@
+# Target labels
+ pngdec-populate
+# Source files and their labels
+/home/orsis/src/TFT_eSPI/TFT_eSPI/build/_deps/pngdec-subbuild/CMakeFiles/pngdec-populate
+/home/orsis/src/TFT_eSPI/TFT_eSPI/build/_deps/pngdec-subbuild/CMakeFiles/pngdec-populate.rule
+/home/orsis/src/TFT_eSPI/TFT_eSPI/build/_deps/pngdec-subbuild/CMakeFiles/pngdec-populate-complete.rule
+/home/orsis/src/TFT_eSPI/TFT_eSPI/build/_deps/pngdec-subbuild/pngdec-populate-prefix/src/pngdec-populate-stamp/pngdec-populate-build.rule
+/home/orsis/src/TFT_eSPI/TFT_eSPI/build/_deps/pngdec-subbuild/pngdec-populate-prefix/src/pngdec-populate-stamp/pngdec-populate-configure.rule
+/home/orsis/src/TFT_eSPI/TFT_eSPI/build/_deps/pngdec-subbuild/pngdec-populate-prefix/src/pngdec-populate-stamp/pngdec-populate-download.rule
+/home/orsis/src/TFT_eSPI/TFT_eSPI/build/_deps/pngdec-subbuild/pngdec-populate-prefix/src/pngdec-populate-stamp/pngdec-populate-install.rule
+/home/orsis/src/TFT_eSPI/TFT_eSPI/build/_deps/pngdec-subbuild/pngdec-populate-prefix/src/pngdec-populate-stamp/pngdec-populate-mkdir.rule
+/home/orsis/src/TFT_eSPI/TFT_eSPI/build/_deps/pngdec-subbuild/pngdec-populate-prefix/src/pngdec-populate-stamp/pngdec-populate-patch.rule
+/home/orsis/src/TFT_eSPI/TFT_eSPI/build/_deps/pngdec-subbuild/pngdec-populate-prefix/src/pngdec-populate-stamp/pngdec-populate-test.rule
+/home/orsis/src/TFT_eSPI/TFT_eSPI/build/_deps/pngdec-subbuild/pngdec-populate-prefix/src/pngdec-populate-stamp/pngdec-populate-update.rule

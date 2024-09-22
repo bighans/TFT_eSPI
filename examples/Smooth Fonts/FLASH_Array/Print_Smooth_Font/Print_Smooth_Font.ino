@@ -23,6 +23,7 @@
 //  A processing sketch to create new fonts can be found in the Tools folder of TFT_eSPI
 //  https://github.com/Bodmer/TFT_eSPI/tree/master/Tools/Create_Smooth_Font/Create_font
 
+#include "Arduino.h"
 #include "Final_Frontier_28.h"
 
 // Graphics and font library
@@ -103,6 +104,7 @@ void loop() {
 void listFiles(void) {
   Serial.println();
   Serial.println("SPIFFS files found:");
+
 
 #ifdef ESP32
   listDir(SPIFFS, "/", true);
